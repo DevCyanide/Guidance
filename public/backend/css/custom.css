@@ -1,0 +1,11 @@
+.show-in-print{
+	display: none !important;
+}
+@media print{
+	.show-in-print{
+		display: block !important;
+	}
+	.hide-in-print{
+		display: none !important;
+	}
+}
